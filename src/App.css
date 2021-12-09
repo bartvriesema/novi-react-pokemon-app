@@ -1,0 +1,23 @@
+body {
+    background: rgb(255, 203, 5);
+}
+
+h1 {
+    text-align: center;
+}
+
+.pokemon-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 75px;
+}
+
+.pokemon-button {
+    flex-basis: 150px;
+    padding: 10px;
+    background-color: rgb(60, 90, 166);
+    border-color: rgb(199, 160, 8);
+    color: rgb(199, 160, 8);
+    font-size: 24px;
+}
