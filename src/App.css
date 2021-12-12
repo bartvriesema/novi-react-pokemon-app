@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Pokemon-Pocket-Monk';
+    src: url("./assets/Pocket Monk.otf");
+    font-weight: normal;
+}
+
+body {
+    background: rgb(255, 203, 5);
+}
+
+h1 {
+    font-family: Pokemon-Pocket-Monk;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(60, 90, 166);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.pokemon-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 75px;
+}
+
+.pokemon-button {
+    font-family: Pokemon-Pocket-Monk;
+    flex-basis: 150px;
+    padding: 10px;
+    background-color: rgb(60, 90, 166);
+    border-color: rgb(199, 160, 8);
+    color: rgb(199, 160, 8);
+    font-size: 24px;
+}
+
+.pokemon-overview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 90%);
+    filter: drop-shadow(10px 10px 5px rgb(199, 160, 8));
+    width: 200px;
+    margin: 20px;
+}
+
+.pokemon-card-text {
+    font-size: 20px;
+}
+
+.pokemon-card-ability {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: lightgrey;
+    padding: 5px;
+    margin: 5px;
+}
